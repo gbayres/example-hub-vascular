@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat para Cirurgiões Vasculares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Assistente Virtual para Cirurgia Vascular</h1>
+        <p>Bem-vindo ao chatbot especializado em cirurgia vascular. Este assistente está preparado para responder suas dúvidas com base na literatura científica.</p>
+    </div>
+
+    <script
+        async
+        src="https://gbayres.github.io/embedded-chat/index.js"
+        data-api-url="https://ozsfplfaqjkmwotoyvmv.supabase.co/functions/v1/chat"
+        data-api-token="f7b4c1c6-9c6a-4f92-bd77-8f0c5c3d2a61"
+        data-ai-prompt="Você é um chatbot que irá ajudar cirurgiões vasculares respondendo suas dúvidas de forma clara e objetiva. Você deve ser sempre comprometido com a literatura científica e ter extrema precisão. Sempre que possível, cite artigos científicos para embasar suas respostas. Nunca invente informações ou artigos científicos que não existam. Use linguagem formal e técnica, adequada para profissionais da área médica. Tente não dar muita voltas: a informação mais importante deve estar em destaque."
+    ></script>
+</body>
+</html>
